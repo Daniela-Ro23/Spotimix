@@ -2,6 +2,10 @@
 A program that automatically generates a playlist with the top 10 songs by artists specified by the user
 """
 
+# TODO: modularize
+# TODO: change to command line functionality (argparse)
+# TODO: add options for random songs and specifying the number of songs
+
 import config
 import spotipy
 import spotipy.util as util
